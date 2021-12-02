@@ -9,8 +9,8 @@ Task : Predicting whether the person's salary is below or above 7 million rupiah
 Overview
 ========
 The data is imbalanced so SMOTE was applied. Since after SMOTE the dataset is too large, undersampling was done to make the data smaller in order to make
-model training faster. In this modelling, 10 model classification was made using 10 classifiers which each of them has been finely tuned.<br/>
-Then, all of the models were compared using F! Macro Average Parameter which is shown below. <br/>
+model training faster. In this modelling, 10 model classification was made using 10 classifiers which each of them has been finely tuned.
+Then, all of the models were compared using F1 Macro Average Parameter which is shown below. <br/>
 <br/>
 ![Algs](https://user-images.githubusercontent.com/67742339/144507093-f668cbe8-2109-4337-b201-b76d0d195dd5.PNG) <br/>
 Three models with the highest F1 Macro Average Score will be used for the next step. <br/>
